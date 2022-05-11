@@ -1,4 +1,4 @@
-
+import './style.scss';
 import logoFooter from '../../assets/logo.png';
 
 
@@ -13,10 +13,11 @@ function Footer() {
     <div className="containerLogoFooter">
       <img src={logoFooter} className="logoFooter" alt="logoFooter"></img>
     </div>
-    <h1 className="titleFooter">Contact</h1>
+    <div className="containerTxtFooter">
+    <div className="titleFooter">Contact</div>
     <div className="textContactFooter"> 
 {textContactFooter}
-</div>
+</div></div>
   </footer>;
 
 }
