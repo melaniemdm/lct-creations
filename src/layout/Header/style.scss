@@ -1,15 +1,13 @@
 @import "../../styles/communs.scss";
 
-.logoHeader{
-    //outline: 1px solid black;
-    width:300px;
-    height: 300px;
+.logoHeader {
+  //outline: 1px solid black;
+  width: 300px;
+  height: 300px;
 }
-header{
-  outline: 1px solid black;
-    margin-top:50px;
-
-    display: flex;
+header {
+  //outline: 1px solid black;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   @include marginDesktop;

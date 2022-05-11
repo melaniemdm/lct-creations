@@ -4,6 +4,7 @@ import { HashRouter as Router} from 'react-router-dom';
 import '../src/styles/index.scss';
 import Header from '../src/layout/Header';
 import Footer from '../src/layout/Footer';
+import Banner from '../src/layout/Banner';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -12,7 +13,7 @@ root.render(
   <React.StrictMode>
   <Router>
       <Header />
-    
+      <Banner/>
       {/* <Routes>
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />
