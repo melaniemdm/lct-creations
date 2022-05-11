@@ -1,26 +1,42 @@
-
-
-#backgroundBanner{
-    background-color: red;
-    width:100%;
-    margin: 0;
-	padding: 500px 0 0 0;
-	position: absolute;
-	left: 0;
-	overflow: hidden;
-  background: url('http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg');
+#backgroundBanner {
+  width: 100%;
+  margin: 0;
+  padding: 500px 0 0 0;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  background: url("http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg");
   animation: clouds_animation 75s linear infinite;
 }
 @keyframes clouds_animation {
-    0%  {background-position: 0 0;}
-    100%  {background-position: -2122px 0;}
+  0% {
+    background-position: 0 0;
   }
+  100% {
+    background-position: -2122px 0;
+  }
+}
 
-  .titleBanner1,.titleBanner2 {
-     // outline: 1px solid red;
-     text-align: center;
-     padding-top:60px;
-      color: white;
-      position: relative;
-      font-size:50px;
+.titleBanner{
+  //  outline:1px solid red;
+  text-align: center;
+  height:100px;
+  padding-top:35px;
+  color: white;
+  position: relative;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   }
+  .title1{
+    display: flex;
+    justify-content:flex-start;
+    }
+  .title2{
+    display: flex;
+    justify-content:center;
+    }
+.title3{
+    display: flex;
+justify-content:flex-end;
+}
