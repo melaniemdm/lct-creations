@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { HashRouter as Router} from 'react-router-dom';
+import '../src/styles/index.scss';
+import Header from '../src/layout/Header';
+import Footer from '../src/layout/Footer';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <Router>
+      <Header />
+    
+      {/* <Routes>
+        <Route exact path="/home" element={<Accueil />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes> */}
+     <Footer />
+    </Router>
   </React.StrictMode>
 );
 
