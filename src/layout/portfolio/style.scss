@@ -1,16 +1,21 @@
 .containerPortfolio{
-    height:500px;
-    background-color:green;
+    height:auto;
+    background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
     width:100%;
     margin-top:600px;
     //max-width: 40rem;
    // margin: 0 auto;
     //padding: 0 1.25rem;
   display: flex;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
 }
 
+.portfolioTitle{
+    font-size:25px;
+    font-weight:bold;
+}
 /*****carrousel 3d automatique*****/
 
 *{box-sizing : border-box}
