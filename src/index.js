@@ -6,6 +6,7 @@ import Header from '../src/layout/Header';
 //import Footer from '../src/layout/Footer';
 import Banner from '../src/layout/Banner';
 import Prestations from '../src/layout/Prestations';
+import Portfolio from './layout/Portfolio';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +17,7 @@ root.render(
       <Header />
       <Banner/>
       <Prestations/>
+      <Portfolio/>
       {/* <Routes>
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />
