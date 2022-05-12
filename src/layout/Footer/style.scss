@@ -1,28 +1,27 @@
-.logoFooter{
-    //outline: 1px solid black;
-    width:100px;
-    height: 100px;
-    border-radius: 50%; 
+.logoFooter {
+  //outline: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
-.containerTxtFooter{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    outline: 1px solid black;
+.containerTxtFooter {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  outline: 1px solid black;
 }
-.titleFooter{
-font-size:30px;
-font-weight:bold;
+.titleFooter {
+  font-size: 30px;
+  font-weight: bold;
 }
-footer{
-     background-color:black;
-     width:100%;
-    margin: 0;
-	padding: 100px 0 50px 0 ;
-	position: absolute;
-	left: 0;
-	bottom: 0px;
-	overflow: hidden;
-   display: flex;
-   justify-content:space-around;
-  }
+footer {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 100px 0 50px 0;
+  left: 0;
+  bottom: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}

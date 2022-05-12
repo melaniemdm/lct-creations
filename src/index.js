@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter as Router} from 'react-router-dom';
 import '../src/styles/index.scss';
 import Header from '../src/layout/Header';
-//import Footer from '../src/layout/Footer';
+import Footer from '../src/layout/Footer';
 import Banner from '../src/layout/Banner';
 import Prestations from '../src/layout/Prestations';
 import Portfolio from './layout/Portfolio';
@@ -24,7 +24,7 @@ root.render(
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />
       </Routes> */}
-     {/* <Footer /> */}
+     <Footer />
     </Router>
   </React.StrictMode>
 );
