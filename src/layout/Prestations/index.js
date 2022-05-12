@@ -13,7 +13,7 @@ function Prestations(){
   <div id="right">
     <ul>
       <li> 
-        <img src="https://cdn.worldvectorlogo.com/logos/appcoins.svg" alt="Ti pidr"/>
+        <img src="https://img.icons8.com/cute-clipart/64/000000/create-new.png" alt="Ti pidr"/>
         <span>
           <div className="titlePrestation">Création de logo</div>
           <div className="txtPrestation">Satisfaction garantie !
@@ -21,14 +21,14 @@ function Prestations(){
         </span>
       </li>
       <li> 
-        <img src="https://cdn.worldvectorlogo.com/logos/ethos.svg" alt=""/>
+        <img src="https://img.icons8.com/color/48/000000/vision.png" alt="id visuelle"/>
         <span>
           <div className="titlePrestation">Identité visuelle</div>
           <div className="txtPrestation">Imaginons ensemble l’univers graphique qui va graviter autour de votre logo : carte de visite, papier en tête, plaquette, brochure, … tout y passe !</div>
         </span>
       </li>
       <li> 
-        <img src="https://cdn.worldvectorlogo.com/logos/iota-1.svg" alt=""/>
+        <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-internet-data-science-kiranshastry-lineal-color-kiranshastry.png" alt="create site vitrine"/>
         <span>
           <div className="titlePrestation">Création de votre site vitrine</div>
           <div className="txtPrestation">Rentrez en contact avec vos utilisateurs, création de sites web haut de gamme, pour garantir à l’utilisateur une expérience hors du commun.  </div>
