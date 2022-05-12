@@ -1,3 +1,4 @@
+@import '../../styles/communs.scss';
 
 .containerBanner{
   margin-top:-90px;
@@ -26,7 +27,7 @@
   text-align: center;
   height:100px;
   padding-top:35px;
-  color: white;
+  color: $colorGrey;
   position: relative;
   font-size: 50px;
   margin-left: 20px;

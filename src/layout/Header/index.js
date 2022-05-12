@@ -1,6 +1,6 @@
 import './style.scss';
 import logoHeader from '../../assets/logo.png';
-import Navigate from '../../components/Navigate';
+import Navigate from '../Navigate';
 
 
 
