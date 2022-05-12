@@ -1,23 +1,22 @@
-import { Link } from "react-router-dom";
-import './style.scss';
+
+import "./style.scss";
 
 function Navigate() {
   return (
     <div className="containerNavigate">
-      <nav className="navigate">
-        <Link to="/home " className="accueil">
-          Accueil
-        </Link>
-        <Link to="/propos" className="apropos">
-          Présentation
-        </Link>
-        <Link to="/portfolio" className="portfolio">
-          Portfoliot
-        </Link>
-        <Link to="/references" className="references">
-          Ils nous ont fait confiance !
-        </Link>
-      </nav>
+      <a href="#click" class="menu">
+        <h2 class="menu-title">Présentation</h2>
+      </a>
+      <a href="#click" class="menu">
+        <h2 class="menu-title menu-title_2nd">Nos prestations</h2>
+      </a>
+      <a href="#click" class="menu">
+        <h2 class="menu-title menu-title_3rd">Portfolio</h2>
+      </a>
+      <a href="#click" class="menu">
+        <h2 class="menu-title menu-title_4th">Nos Références</h2>
+      </a>
+
     </div>
   );
 }
