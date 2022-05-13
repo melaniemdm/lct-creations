@@ -1,10 +1,10 @@
 import './style.scss';
 
-function Portfoliot(){
+function Portfoliot(props){
    
     return (
          <div>
-            <div className="containerPortfolioTitle">Notre Portfolio</div>  
+            <div id={"ancre"+ props.name} className="containerPortfolioTitle">Notre Portfolio</div>  
      <div className="containerPortfolio">
           
 <div className="portfolioTitle">Sites vitrines</div>

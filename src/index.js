@@ -8,6 +8,7 @@ import Banner from '../src/layout/Banner';
 import Prestations from '../src/layout/Prestations';
 import Portfolio from './layout/Portfolio';
 import References from './layout/References';
+
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,9 +18,9 @@ root.render(
   <Router>
       <Header />
       <Banner/>
-      <Prestations/>
-      <Portfolio/>
-      <References/>
+      <Prestations name="NosPrestations" /> 
+      <Portfolio name="portfolio"/>
+      <References name="nosReferences"/>
       {/* <Routes>
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />

@@ -13,7 +13,7 @@ function Header(){
         <img src={logoHeader} className="logoHeader" alt="logoHeader"></img>
       </div>
 
-      <div className="containerNav">{navigate.map(titleNav=><Navigate key={titleNav.id} titleNav={titleNav.titleNavigate}/> )}  </div>
+      <div className="containerNav">{navigate.map(titleNav=><Navigate key={titleNav.id} titleNav={titleNav.titleNavigate} name={titleNav.name}/> )}  </div>
 
     </header>
   );

@@ -1,13 +1,13 @@
 import './style.scss';
 
-function Prestations(){
+function Prestations(props){
    const titlePage = 'Votre projet de A à Z';
    const txtLeft='Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque recusandae doloribus nulla dolorum, vitae ducimus tempore quisquam, maxime repellendus ipsam tenetur deleniti, odit quo consequatur deserunt commodi labore culpa repellat.';
 
     return (
      <div className="containerPrestation">
   <div id="left">
-    <h1>{titlePage}</h1>
+    <h1 id= {"ancre"+ props.name} >{titlePage}</h1>
     <div className="containerTxtLeft">{txtLeft}</div>
   </div>
   <div id="right">
