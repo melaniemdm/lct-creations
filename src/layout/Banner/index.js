@@ -7,9 +7,9 @@ function Banner(){
 <div className="containerBanner">
     
 <div id="backgroundBanner"></div>
-<div className="titleBanner title1">Vous avez un projet en tête? </div>
-<div className="titleBanner title2">Nous sommes à votre écoute! </div>
-<div className="titleBanner title3">Pour concrétiser vos projets! </div>
+<div className="titleBanner title1 reveal">Vous avez un projet en tête? </div>
+<div className="titleBanner title2 reveal">Nous sommes à votre écoute! </div>
+<div className="titleBanner title3 reveal">Pour concrétiser vos projets! </div>
 </div>  
  
     );
