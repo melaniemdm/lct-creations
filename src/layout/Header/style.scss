@@ -4,6 +4,9 @@
   //outline: 1px solid black;
   width: 300px;
   height: 300px;
+  border-radius: 50%;
+  margin-top:10px;
+  margin-bottom:90px;
 }
 header {
   //outline: 1px solid black;
@@ -11,5 +14,10 @@ header {
   justify-content: space-between;
   align-items: center;
   @include marginDesktop;
-  margin-top:-50px;
+  //margin-top:-60px;
+}
+.containerNav{
+  display: flex;
+  justify-content: space-between;
+  margin-right: -90px;
 }

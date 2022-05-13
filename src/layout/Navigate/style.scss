@@ -2,12 +2,10 @@
 
 .containerNavigate {
   // outline: 1px solid black;
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: flex-end;
-  margin-right: -90px;
-  gap: 10px;
-  text-align: center;
+  margin-top:-90px;
 }
 a {
   text-decoration: none;
@@ -22,10 +20,12 @@ a {
 }
 
 .menu-title {
+  color:$colorGrey;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+ 
   width: $menu_WIDTH;
   height: 50px;
    color: $colorGrey;
@@ -33,7 +33,7 @@ a {
   transition: 0.3s background-color;
   border-radius:20px;
   &:hover{
-    color:#dddddd;
+    color:#ffdcba;
   }
 }
 
@@ -44,7 +44,7 @@ a {
   border-top: 5px solid $colorGrey;
   border-left: ($menu_WIDTH / 2) solid transparent;
   border-right: ($menu_WIDTH / 2) solid transparent;
-  border-bottom: 0 solid #dddddd;
+  border-bottom: 0 solid #ffdcba;
   position: absolute;
   top: 100%;
   left: 0;
@@ -65,7 +65,7 @@ a {
   height: 0;
   border-left: ($menu_WIDTH / 2) solid transparent;
   border-right: ($menu_WIDTH / 2) solid transparent;
-  border-bottom: 0 solid #ebebeb;
+  border-bottom: 0 solid #ffdcba;
   position: absolute;
   bottom: 0;
   left: 0;

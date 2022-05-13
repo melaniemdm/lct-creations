@@ -8,8 +8,8 @@ function Portfoliot(){
      <div className="containerPortfolio">
           
 <div className="portfolioTitle">Sites vitrines</div>
-<div class="contenu_carou_auto">
-<div class="caroussel-image">
+<div className="contenu_carou_auto">
+<div className="caroussel-image">
 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt=""/>
 <img src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg" alt=""/>
 <img src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg" alt=""/>
@@ -24,8 +24,8 @@ function Portfoliot(){
 
 <div className="container3D"></div>
 <div className="portfolioTitle">3D</div>
-<div class="contenu_carou_auto">
-<div class="caroussel-image">
+<div className="contenu_carou_auto">
+<div className="caroussel-image">
 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt=""/>
 <img src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg" alt=""/>
 <img src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg" alt=""/>
@@ -40,8 +40,8 @@ function Portfoliot(){
 
 <div className="containerPhotomontage"></div>
 <div className="portfolioTitle">Photomontage</div>
-<div class="contenu_carou_auto">
-<div class="caroussel-image">
+<div className="contenu_carou_auto">
+<div className="caroussel-image">
 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt=""/>
 <img src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg" alt=""/>
 <img src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg" alt=""/>
@@ -56,8 +56,8 @@ function Portfoliot(){
 
 <div className="containerPackaging"></div>
 <div className="portfolioTitle">Packaging</div>
-<div class="contenu_carou_auto">
-<div class="caroussel-image">
+<div className="contenu_carou_auto">
+<div className="caroussel-image">
 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt=""/>
 <img src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg" alt=""/>
 <img src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg" alt=""/>
