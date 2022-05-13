@@ -3,7 +3,10 @@ import './style.scss';
 function Portfoliot(){
    
     return (
+         <div>
+            <div className="containerPortfolioTitle">Notre Portfolio</div>  
      <div className="containerPortfolio">
+          
 <div className="portfolioTitle">Sites vitrines</div>
 <div class="contenu_carou_auto">
 <div class="caroussel-image">
@@ -67,7 +70,7 @@ function Portfoliot(){
 </div>
 </div>
 
-         </div>
+         </div></div>
     );
           
   }
