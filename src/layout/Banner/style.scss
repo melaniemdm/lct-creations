@@ -13,13 +13,13 @@
   overflow: hidden;
   background: url("http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg");
   animation: clouds_animation 50s linear infinite;
-  animation: clouds_animation_Retour 50s linear infinite;
+  
 }
 @keyframes clouds_animation {
   0% {
     background-position: 0 0;
   }
-  90% {
+  50% {
     background-position: -2122px 0;
   }
 
@@ -27,16 +27,7 @@
     background-position: 0 0;
   }
 }
-@keyframes clouds_animation_Retour {
-  0% {
-    background-position: -2122px 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
 
-
-}
 
 
 .titleBanner{

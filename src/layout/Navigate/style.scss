@@ -28,11 +28,13 @@ a {
   justify-content: center;
   width: $menu_WIDTH;
   height: 50px;
-  background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-  color: $colorGrey;
+   color: $colorGrey;
   text-transform: uppercase;
   transition: 0.3s background-color;
   border-radius:20px;
+  &:hover{
+    color:#dddddd;
+  }
 }
 
 .menu-title:before {
@@ -50,9 +52,7 @@ a {
  
 }
 
-.menu-title:hover {
-  background-image: linear-gradient(135deg, #7fc5df, #ffdcba );
-}
+
 
 .menu:hover > .menu-title:before {
   border-top-width: 0;
@@ -78,23 +78,4 @@ a {
   transition: 0.2s 0.2s border-bottom-width ease-out;
 }
 
-.menu-title_2nd {
-  background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-}
-.menu-title_2nd:hover {
-  background-image: linear-gradient(135deg, #7fc5df, #ffdcba );
-}
 
-.menu-title_3rd {
-  background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-}
-.menu-title_3rd:hover {
-  background-image: linear-gradient(135deg, #7fc5df, #ffdcba );
-}
-
-.menu-title_4th {
-  background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-}
-.menu-title_4th:hover {
-  background-image: linear-gradient(135deg,#7fc5df, #ffdcba );
-}
