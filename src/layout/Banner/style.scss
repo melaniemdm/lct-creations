@@ -1,9 +1,12 @@
 @import "../../styles/communs.scss";
 
 .containerBanner {
-  height: 500px;
+  height: 400px;
   margin-top: -60px;
+  margin-bottom:200px;
   box-shadow: 15px 5px 5px 15px #ffdcba;
+position: relative;
+
 }
 #backgroundBanner {
   width: 100%;

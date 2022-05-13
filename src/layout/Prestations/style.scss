@@ -1,12 +1,13 @@
 @import "../../styles/communs.scss";
 
 .containerPrestation {
-  position: absolute;
+  position: relative;
+  height: 400px;
   display: flex;
-  height: 500px;
   width: 50%;
-  margin-top: 100px;
   align-self: center;
+  //outline: 10px solid black;
+ margin-left:20px;
 }
 .titlePrestation {
   font-size: 30px;
@@ -16,7 +17,10 @@
 .txtPrestation {
   font-size: 20px;
 }
-
+.titlePageLeft{
+  margin-top:-50px;
+  font-size: 50px;
+}
 // body{
 //   font-family: 'montserrat';
 //   display: grid;
@@ -78,14 +82,7 @@ img {
   width: 70px;
 }
 
-h1 {
-  font-size: 3em;
-  margin-top: -50px;
-}
-.containerTxtLeft,
-h1 {
-  margin-left: 20px;
-}
+
 #left > div {
   color: grey;
   line-height: 1.9em;

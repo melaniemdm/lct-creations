@@ -7,7 +7,7 @@ function Prestations(props){
     return (
      <div className="containerPrestation">
   <div id="left">
-    <h1 id= {"ancre"+ props.name} >{titlePage}</h1>
+    <h1 id= {"ancre"+ props.name} className="titlePageLeft" >{titlePage}</h1>
     <div className="containerTxtLeft">{txtLeft}</div>
   </div>
   <div id="right">
