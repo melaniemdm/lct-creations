@@ -10,6 +10,7 @@ import Banner from '../src/layout/Banner';
 import Prestations from '../src/layout/Prestations';
 import Portfolio from './layout/Portfolio';
 import References from './layout/References';
+import ScrollToTop from "react-scroll-to-top";
 
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -34,7 +35,7 @@ root.render(
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />
       </Routes> */}
-      
+      <ScrollToTop />
      <Footer />
     </Router>
   </React.StrictMode>
