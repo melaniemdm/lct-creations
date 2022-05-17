@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lct-creations/static/css/main.6aec0bb2.css",
+    "main.js": "/lct-creations/static/js/main.41ba6b8d.js",
+    "static/js/411.9897fd88.chunk.js": "/lct-creations/static/js/411.9897fd88.chunk.js",
+    "static/media/ref.png": "/lct-creations/static/media/ref.b8e5e008bb88d8b6a12e.png",
+    "static/media/logo.png": "/lct-creations/static/media/logo.21c35d8bf1588531bf9b.png",
+    "index.html": "/lct-creations/index.html",
+    "main.6aec0bb2.css.map": "/lct-creations/static/css/main.6aec0bb2.css.map",
+    "main.41ba6b8d.js.map": "/lct-creations/static/js/main.41ba6b8d.js.map",
+    "411.9897fd88.chunk.js.map": "/lct-creations/static/js/411.9897fd88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aec0bb2.css",
+    "static/js/main.41ba6b8d.js"
+  ]
+}
