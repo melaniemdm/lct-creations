@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter as Router} from 'react-router-dom';
+import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
+import Slide from 'react-reveal/Slide';
 import '../src/styles/index.scss';
 import Header from '../src/layout/Header';
 import Footer from '../src/layout/Footer';
@@ -16,15 +18,23 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Router>
+  
       <Header />
+      <Zoom>{/*Using Zoom Effect*/}
       <Banner/>
+     </Zoom> 
+    
       <Prestations name="NosPrestations" /> 
-      <Portfolio name="portfolio"/>
+      <Slide right>
+      <Portfolio name="portfolio"/>   </Slide> 
+      <Slide left>
       <References name="nosReferences"/>
+      </Slide>
       {/* <Routes>
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />
       </Routes> */}
+      
      <Footer />
     </Router>
   </React.StrictMode>
