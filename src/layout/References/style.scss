@@ -1,3 +1,5 @@
+@import "../../styles/communs.scss";
+
 .containerReferencesTitle {
   font-size: 3em;
   font-weight: bold;
@@ -9,4 +11,10 @@
   width: auto;
   display: block;
   margin: 0px auto;
+}
+@media #{$small-down} {
+  .containerReferencesTitle {
+    font-size: 30px;
+    
+  }
 }
