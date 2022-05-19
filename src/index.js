@@ -35,7 +35,7 @@ root.render(
         <Route exact path="/home" element={<Accueil />} />
         <Route path="*" element={<Error404 />} />
       </Routes> */}
-      <ScrollToTop />
+      <ScrollToTop color="red"/>
      <Footer />
     </Router>
   </React.StrictMode>

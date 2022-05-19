@@ -3,12 +3,9 @@
 .containerBanner {
  // outline:1px solid red;
   height: 400px;
-  margin-top: -10px;
   margin-bottom:200px;
   box-shadow: 15px 5px 5px 15px #ffdcba;
-display: flex;
-flex-direction:column;
-position: relative;
+
 }
 #backgroundBanner {
   width: 100%;
@@ -46,6 +43,7 @@ position: relative;
 .title1 {
   display: flex;
   justify-content: flex-start;
+  padding-top:50px;
 }
 .title2 {
   display: flex;
