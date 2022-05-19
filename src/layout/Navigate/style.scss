@@ -79,3 +79,10 @@ a {
 }
 
 
+@media #{$small-down} {
+.containerNavigate{
+  font-size:9px;
+  display: flex;
+  flex-direction: column;
+}
+}

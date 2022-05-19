@@ -53,3 +53,17 @@
   display: flex;
   justify-content: flex-end;
 }
+
+
+@media #{$small-down} {
+  .titleBanner{
+    font-size:20px;
+     }
+     #backgroundBanner {
+      padding: 300px 0 0 0;
+     }
+     .containerBanner {
+      // outline:1px solid red;
+       height: auto;
+     }
+  }
