@@ -1,126 +1,125 @@
-.containerPortfolio{
-    height:auto;
-    background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-    width:100%;
-   	padding-top:50px;
-    //max-width: 40rem;
-   // margin: 0 auto;
-    //padding: 0 1.25rem;
+@import "../../styles/communs.scss";
+
+.containerPortfolio {
+  height: auto;
+  background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
+  width: 100%;
+  padding-top: 50px;
+  //max-width: 40rem;
+  // margin: 0 auto;
+  //padding: 0 1.25rem;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
-.containerPortfolioTitle{
-	font-size: 50px;
-	font-weight: bold;
-	position: absolute;
-	left: 20px;
-	margin-top: 20px;
+.containerPortfolioTitle {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  margin-top: 20px;
 }
-.portfolioTitle{
-    font-size:25px;
-    font-weight:bold;
-    padding-top: 20px;
+.portfolioTitle {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
 }
 /*****carrousel 3d automatique*****/
 
-*{box-sizing : border-box}
-
-img{max-width:100%}
-
-.contenu_carou_auto{
-
-margin:2rem auto;
-width:420px;
-height:279px;
-perspective:8000px
-	
-	}
-		
-.caroussel-image{
-	
-animation:rotation 24s infinite alternate linear;	
-transform-style:preserve-3d;
-position:relative;	
-
+* {
+  box-sizing: border-box;
 }
 
-.caroussel-image img{
-	
-position: absolute;
-top:0;
-left: 0;
-	
-	
-	}
+img {
+  max-width: 100%;
+}
 
+.contenu_carou_auto {
+  margin: 2rem auto;
+  width: 420px;
+  height: 279px;
+  perspective: 8000px;
+}
 
-		
-.caroussel-image img{
-	
-filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
-width:400px;
-height:266px;
-left:10px;
-outline:1px solid transparent;
-backface-visibility:hidden
-	
-	}
-		
-.caroussel-image img:nth-child(1){
-	
-transform:translate3d(0,0,495px)
-		
-		}
-		
-.caroussel-image img:nth-child(2){
-	
-transform:rotateY(45deg) translateZ(495px)
-	
-		}
-		
-.caroussel-image img:nth-child(3){
-	
-	transform:rotateY(90deg) translateZ(495px)
-	
-	}
-	
-.caroussel-image img:nth-child(4){
-	
-	transform:rotateY(135deg) translateZ(495px)
-	
-	}
-	
-.caroussel-image img:nth-child(5){
-	
-	transform:rotateY(180deg) translateZ(495px)
-	
-	}
-	
-.caroussel-image img:nth-child(6){
-	
-	transform:rotateY(225deg) translateZ(495px)
-	
-	}
-	
-.caroussel-image img:nth-child(7){
-	
-	transform:rotateY(270deg) translateZ(495px)
-	
-	}
-	
-.caroussel-image img:nth-child(8){
-	
-	transform:rotateY(315deg) translateZ(495px)
-	
-	}
+.caroussel-image {
+  animation: rotation 24s infinite alternate linear;
+  transform-style: preserve-3d;
+  position: relative;
+}
 
-	
+.caroussel-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-	
-@keyframes rotation{
-from{transform:rotatey(0)}
-to{transform:rotatey(0.5turn)}}
-	
-/*****fin carrousel 3d automatique*****/
+.caroussel-image img {
+  filter: drop-shadow(0 12px 5px hsla(0, 0%, 0%, 0.4));
+  width: 400px;
+  height: 266px;
+  left: 10px;
+  outline: 1px solid transparent;
+  backface-visibility: hidden;
+}
+
+.caroussel-image img:nth-child(1) {
+  transform: translate3d(0, 0, 495px);
+}
+
+.caroussel-image img:nth-child(2) {
+  transform: rotateY(45deg) translateZ(495px);
+}
+
+.caroussel-image img:nth-child(3) {
+  transform: rotateY(90deg) translateZ(495px);
+}
+
+.caroussel-image img:nth-child(4) {
+  transform: rotateY(135deg) translateZ(495px);
+}
+
+.caroussel-image img:nth-child(5) {
+  transform: rotateY(180deg) translateZ(495px);
+}
+
+.caroussel-image img:nth-child(6) {
+  transform: rotateY(225deg) translateZ(495px);
+}
+
+.caroussel-image img:nth-child(7) {
+  transform: rotateY(270deg) translateZ(495px);
+}
+
+.caroussel-image img:nth-child(8) {
+  transform: rotateY(315deg) translateZ(495px);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotatey(0);
+  }
+  to {
+    transform: rotatey(0.5turn);
+  }
+}
+
+@media #{$small-down} {
+  .containerPortfolioTitle {
+    font-size: 30px;
+  }
+  .portfolioTitle {
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  .caroussel-image img {
+    width: 200px;
+    height: 166px;
+  }
+  .contenu_carou_auto {
+    margin: 1rem auto;
+    width: 220px;
+    height: 179px;
+    perspective: 10000px;
+  }
+}
