@@ -103,14 +103,20 @@ img {
     transform: rotatey(0.5turn);
   }
 }
-
+@media #{$medium-down} {
+  .portfolioTitle {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+ 
+}
 @media #{$small-down} {
   .containerPortfolioTitle {
     font-size: 30px;
   }
   .portfolioTitle {
     font-size: 15px;
-    padding-top: 30px;
+    
   }
   .caroussel-image img {
     width: 200px;

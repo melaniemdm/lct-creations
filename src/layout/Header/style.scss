@@ -21,13 +21,12 @@ header {
   justify-content: space-between;
   margin-right: -90px;
 }
-@media #{$small-down} {
+@media #{$medium-down} {
   .logoHeader {
     //outline: 1px solid black;
     width: 150px;
     height: 150px;
-  
-   object-fit: cover;
+     object-fit: cover;
     }
  header{
    flex-direction: column;

@@ -76,6 +76,21 @@ a {
   border-bottom-width: 5px;
   transition: 0.2s 0.2s border-bottom-width ease-out;
 }
+@media #{$medium-down} {
+  .menu-title {
+    font-size:15px;
+    width: $menu_WIDTHTab;
+    }
+    .menu-title:before {
+      border-left: ($menu_WIDTHTab / 2) solid transparent;
+      border-right: ($menu_WIDTHTab/ 2) solid transparent;
+    }
+    .menu-title:after {
+      border-left: ($menu_WIDTHTab / 2) solid transparent;
+      border-right: ($menu_WIDTHTab/ 2) solid transparent;
+    }
+}
+
 
 
 @media #{$small-down} {

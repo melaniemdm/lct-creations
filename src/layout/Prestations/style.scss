@@ -45,26 +45,26 @@ ul li {
 ul li:nth-child(1) {
   color: $colorGrey;
   background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-  top: -122px;
+  top: -112px;
   z-index: 2;
-  width: 800px;
-  height: 130px;
+  width: 700px;
+  height: 120px;
 }
 
 ul li:nth-child(2) {
   background-image: linear-gradient(135deg, #7fc5df, #ffdcba);
   z-index: 1;
   color: $colorGrey;
-  width: 800px;
-  height: 140px;
+  width: 700px;
+  height: 120px;
 }
 
 ul li:nth-child(3) {
   color: $colorGrey;
   background-image: linear-gradient(135deg, #ffdcba, #7fc5df);
-  top: 138px;
+  top: 108px;
   z-index: 0;
-  width: 800px;
+  width: 700px;
   height: 130px;
 }
 
@@ -81,54 +81,51 @@ img {
   color: grey;
   line-height: 1.9em;
 }
+#left {
+  outline: 1pc solid black;
+}
+@media #{$medium-down} {
+  .titlePageLeft{
+    margin-top:-40px;
+     font-size: 30px;
+   }
+   .titlePrestation {
+     font-size: 20px;
+     font-weight: bold;
+   }
+   
+   .txtPrestation {
+     font-size: 10px;
+   }
+   .containerTxtLeft
+   {
+    
+    width:350px;
+   }
+   .containerPrestation{
+     flex-direction: column;
+     height: 600px;
+   }
+   
+   
+   ul {
+      perspective: 6000px;
+   }
+   
+   ul li:nth-child(1) {
+      width: 300px;
+     height: 100px;
+   }
+   ul li:nth-child(2) {
+       width: 300px;
+     height: 100px;
+     top: -25px;
+   }
+   
+   ul li:nth-child(3) {
+       width: 300px;
+     height: 120px;
+     top: 60px;
+   }
+   }
 
-
-
-
-@media #{$small-down} {
- .titlePageLeft{
- margin-top:-40px;
-  font-size: 30px;
-}
-.titlePrestation {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.txtPrestation {
-  font-size: 10px;
-}
-.containerTxtLeft
-{
-  font-size: 15px;
- width:350px;
-}
-.containerPrestation{
-  flex-direction: column;
-  height: 600px;
-}
-#right  {
-  //outline: 1px solid black;
-  margin-top: 150px;
-}
-
-ul {
-   perspective: 6000px;
-}
-
-ul li:nth-child(1) {
-   width: 300px;
-  height: 100px;
-}
-ul li:nth-child(2) {
-    width: 300px;
-  height: 100px;
-  top: -25px;
-}
-
-ul li:nth-child(3) {
-    width: 300px;
-  height: 120px;
-  top: 60px;
-}
-  }
