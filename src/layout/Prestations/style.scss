@@ -81,9 +81,7 @@ img {
   color: grey;
   line-height: 1.9em;
 }
-#left {
-  outline: 1pc solid black;
-}
+
 @media #{$medium-down} {
   .titlePageLeft{
     margin-top:-40px;
@@ -103,11 +101,10 @@ img {
     width:350px;
    }
    .containerPrestation{
-     flex-direction: column;
+    // flex-direction: column;
      height: 600px;
    }
-   
-   
+      
    ul {
       perspective: 6000px;
    }
@@ -127,5 +124,15 @@ img {
      height: 120px;
      top: 60px;
    }
+   #right {
+    margin-top:100px;
+   }
+   }
+
+   @media #{$medium-down} {
+
+    .containerPrestation{
+      flex-direction: column;
+    }
    }
 
